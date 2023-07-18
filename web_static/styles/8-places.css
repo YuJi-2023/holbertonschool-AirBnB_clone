@@ -73,3 +73,13 @@
   background-repeat: no-repeat;
   padding-top: 50px;
 }
+
+.container .places .user {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: -8px;
+}
+
+.container .places .description {
+  text-align: left;
+}
