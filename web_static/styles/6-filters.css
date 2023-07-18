@@ -55,6 +55,7 @@
   margin: 0;
   text-align: left;
   padding-left: 20%;
+  margin-bottom: 17px;
 }
 
 .container .filters div:hover ul {
@@ -74,15 +75,21 @@
 .container .filters ul h2 {
   color: black;
   width: inherit;
+  margin-bottom: 6px;
 }
 
 .container .filters ul li {
   color: black;
   width: inherit;
+  line-height: 1.3rem;
 }
 
 .container .filters .locations .popover ul {
   border: none;
   margin-left: 10px;
   padding: 0;
+}
+
+.container .filters .amenities .popover {
+  padding-top: 30px;
 }
