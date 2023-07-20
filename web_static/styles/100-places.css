@@ -83,3 +83,56 @@
 .container .places .description {
   text-align: left;
 }
+
+.container .places .amenities, .container .places .reviews {
+  margin-top: 40px;
+}
+
+.container .places .amenities h2, .container .places .reviews h2{
+  font-size: 16px;
+  border-bottom: 1px solid #DDDDDD;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.container .places .amenities ul, .container .places .reviews ul {
+  display: block;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.container .places .amenities li:nth-child(1) {
+  background-image: url(../images/icon_tv.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.container .places .amenities li:nth-child(2) {
+  background-image: url(../images/icon_wifi.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.container .places .amenities li:nth-child(3) {
+  background-image: url(../images/icon_pets.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.container .places .reviews li h3{
+  font-size: 14px;
+}
+
+.container .places .reviews li p{
+  font-size: 12px;
+}
